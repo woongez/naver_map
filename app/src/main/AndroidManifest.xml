@@ -17,17 +17,17 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-            <meta-data
-                android:name="com.naver.maps.map.CLIENT_ID"
-                android:value="YOUR_CLIENT_ID_HERE" />
+
         </activity>
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="kkjqml82wa" />
     </application>
 
 </manifest>
