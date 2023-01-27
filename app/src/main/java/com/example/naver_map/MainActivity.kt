@@ -9,6 +9,7 @@ import com.naver.maps.map.*
 import com.naver.maps.map.overlay.InfoWindow
 import com.naver.maps.map.overlay.Marker
 import com.naver.maps.map.overlay.Overlay
+import com.naver.maps.map.overlay.PathOverlay
 import com.naver.maps.map.util.FusedLocationSource
 import com.naver.maps.map.util.MarkerIcons
 
@@ -65,6 +66,7 @@ class WalkMapFragmentActivity : Activity(), OnMapReadyCallback {
         infoWindow1.adapter = object : InfoWindow.DefaultTextAdapter(application) {
             override fun getText(infoWindow: InfoWindow): CharSequence {
                 return "공원"  // 정보창 내용 넣기
+
             }
         }
         infoWindow2.adapter = object : InfoWindow.DefaultTextAdapter(application) {
